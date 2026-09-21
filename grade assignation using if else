@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int marks;
+    printf("Enter the marks of the student :");
+    scanf("%d" ,&marks);
+    if (marks>40)
+    {
+        if(marks>75)
+        {
+            printf("The student falls into DISTINCTION category");
+        }
+        else
+        {
+            printf("The student falls into PASS category");
+        }
+    }
+        else 
+    {
+        printf("The student falls into FAIL category");
+    }
+    return 0;
+}
